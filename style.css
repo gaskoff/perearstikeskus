@@ -1,0 +1,55 @@
+li{
+  display: inline;
+}
+
+.logo{
+  width: 30%;
+  border: 1px solid;
+}
+
+header{
+  display: flex;
+  padding: 20px;
+}
+
+footer{
+  padding: 20px;
+  position: relative;
+  background-color: #eee;
+}
+
+.f1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main{
+  height: 300px;
+}
+
+button > img{
+  width: 30px;
+  height: 30px;
+}
+
+.bot > button{
+
+}
+
+#close-chat > img{
+  transform: rotate(180deg);
+}
+
+#chat-container{
+  border: 1px solid;
+  display: none;
+  position: absolute;
+  bottom: 200px;
+  right: 0px;
+}
