@@ -1,0 +1,34 @@
+body{
+    font-family: Lato;
+    font-size: 18px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size:20px;
+}
+a{
+    color: #976DD0;
+}
+nav{
+    font-size: 20px;
+}
+.nav-link{
+    color: #47525E;
+    
+}
+
+@media only screen and (min-width: 1200px){
+        .navbar-expand-xl .navbar-nav .nav-link {
+        padding-left:25px;
+        padding-right:25px;
+    }
+    nav{
+        border-bottom: 1px solid #7E55F3
+    }
+} 
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #976DD0;
+    font-weight: 700;
+}
