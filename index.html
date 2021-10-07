@@ -14,31 +14,52 @@
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' type='text/css'>
     </head>
     <body>
-                <div class="container-fluid d-flex align-items-center justify-content-around">
-                    <header class="text-center">
-                        <a href="index.html"><img src="logo.png" width="150px"></a>
-                    </header>
-                    <nav class="navbar navbar-expand-xl navbar-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-        
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active"><a class="nav-link" href="index.html">Avaleht</a></li>
-                                <li class="nav-item "><a class="nav-link" href="meist.html">Meist</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Vastuvõtuajad</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Patsiendile</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Hinnakiri</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Covid-19</a></li>
-                                <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
-                            </ul>   
-                        </div>
-                    </nav>
-                </div> 
+        <div class="container">
+            <div class="container-fluid d-flex align-items-center justify-content-around">
+                <header class="text-center">
+                    <a href="index.html"><img src="logo.png" width="150px"></a>
+                </header>
+                <nav class="navbar navbar-expand-xl navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-        <main></main>
-        <footer></footer>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Avaleht</a></li>
+                            <li class="nav-item "><a class="nav-link" href="meist.html">Meist</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Vastuvõtuajad</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Patsiendile</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Hinnakiri</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Covid-19</a></li>
+                            <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <main class="d-flex align-items-top justify-content-around flex-wrap">
+                <section class="section left-section">
+                    <img src="images/lobby.png" class="extra-rounding" width="100%">
+                </section>
+                <section class="section right-section">
+                    <div class="vertical-half-height">
+                        <div class="text-center emphasize font-weight-bold">Oluline info:</div>
+                        <div class="card text-white bg-purple extra-rounding text-center emphasize">
+                            <div class="card-body">Perearstikeskusesse tulles on maski kandmine <span class="text-uppercase">kohustuslik.</span></div>
+                        </div>
+                    </div>
+                    <div class="vertical-half-height">
+                        <hr>
+                        <div class="emphasize text-center">Paljusid tõsiseid terviseprobleeme saab ära hoida neile õigel ajal tähelepanu pöörates. Eluterves mõtlemises, endast ja oma lähedastest hoolimises peitub tervise võti. Meie soovime olla igati abiks ja toeks, et säilitada teie tervist ning olla teie kõrval, kui olete haigestunud.</div>
+                        <div class="extra-small font-weight-bold text-center text-muted">Kivimäe perearstikeskus</div>
+                    </div>
+                </section>
+            </main>
+
+            <footer></footer>
+
+        </div>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <!-- Popper.js -->
