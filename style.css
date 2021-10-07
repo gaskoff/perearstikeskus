@@ -67,6 +67,10 @@ nav{
     letter-spacing: 2px;
 }
 
+.strikethrough {
+    text-decoration: line-through;
+}
+
 .extra-small {
     font-size: 10px;
 }
