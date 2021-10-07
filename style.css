@@ -51,6 +51,14 @@ nav{
     background-color: #9B69D0;
 }
 
+.purple {
+    color: #9B69D0;
+}
+
+.font-reset {
+    font-family: Arial, sans-serif;
+}
+
 .extra-rounding {
     border-radius: 20px;
 }

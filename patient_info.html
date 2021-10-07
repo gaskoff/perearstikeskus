@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Perearstikeskus X &#8211; Vastuvõtuajad</title>
+    <title>Perearstikeskus X &#8211; Info Patsiendile</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- minu CSS -->
@@ -38,8 +38,8 @@
                             <a class="dropdown-item" href="employees.html">Meie töötajad</a>
                         </div>
                     </li>
-                    <li class="nav-item active"><a class="nav-link" href="reception.html">Vastuvõtuajad</a></li>
-                    <li class="nav-item"><a class="nav-link" href="patient_info.html">Patsiendile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reception.html">Vastuvõtuajad</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="patient_info.html">Patsiendile</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Hinnakiri</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Covid-19</a></li>
                     <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
@@ -50,44 +50,50 @@
 
 
     <main class="">
-        <h2>Vastuvõtuajad</h2>
-        <section>
-            <table class="table table-hover table-purple">
-                <thead>
-                <tr>
-                    <th scope="col">Arst</th>
-                    <th scope="col">Vastuvõtuajad</th>
-                    <th scope="col">Telefon</th>
-                    <th scope="col">Märkused</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">PhD N-Euro Loog</th>
-                    <td>E-R, kell 12:00 &#8211; 16:00</td>
-                    <td>+5555 5555</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">PhD S. Ilmaarst</th>
-                    <td>E-R kell 8:00 &#8211; 12:00 </td>
-                    <td>+5555 5556</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">M.D. Nahaa Rst</th>
-                    <td>L-P kell 22:00 &#8211; 01:00</td>
-                    <td>+5555 5557</td>
-                    <td>Helistada ette</td>
-                </tr>
-                <tr class="row-muted">
-                    <th scope="row">M.D. Medõ De</th>
-                    <td>L-P kell 22:00 &#8211; 01:00</td>
-                    <td>+5555 5558</td>
-                    <td class="text-uppercase">Puhkusel</td>
-                </tr>
-                </tbody>
-            </table>
+        <h2>Info Patsiendile</h2>
+        <section class="d-flex align-items-start justify-content-between">
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/info/purple_man.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Iluravi</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><span class="purple font-reset">&#10022;</span> Nahahooldus</li>
+                    <li class="list-group-item"><span class="purple font-reset">&#10022;</span> Sünnimärgi eemaldamine</li>
+                    <li class="list-group-item"><span class="purple font-reset">&#10084;</span> Ilukirurgia</li>
+                </ul>
+                <div class="card-body">
+                    <a href="mailto:ilu@perearstikeskusx.ee" class="card-link">ilu@perearstikeskusx.ee</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/info/pills.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Retseptiravimid</h5>
+                    <p>Võtke meie retseptiravimeid just nii nagu arst on teile öelnud. Ravimite kõrvaltoimete tekkimisel, konsulteerige arsti või apteekriga.</p>
+                </div>
+                <div class="card-body">
+                    Küsimused ja probleemid: <a href="mailto:ravim@perearstikeskusx.ee" class="card-link">ravim@perearstikeskusx.ee</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/info/eye.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Vastuvõtt silmaarstile</h5>
+                    <p class="card-text">Silmaarsti vastuvõtule tulles:</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><span class="purple font-reset">&#10004;</span> Peske silmad leige veega</li>
+                    <li class="list-group-item"><span class="purple font-reset">&#10004;</span> Eemaldage kontaktläätsed</li>
+                    <li class="list-group-item"><span class="purple font-reset">&#10004;</span> Võtke kaasa prillid</li>
+                </ul>
+                <div class="card-body">
+                    Küsimused<br><a href="mailto:s.ilmaarst@perearstikeskusx.ee" class="card-link">s.ilmaarst@perearstikeskusx.ee</a>
+                </div>
+            </div>
         </section>
     </main>
 
