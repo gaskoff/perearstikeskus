@@ -69,6 +69,15 @@ nav{
     height: 50%;
 }
 
+.vertical-spacing {
+    margin-bottom: 1em;
+}
+
+.spacer {
+    height: 3em;
+    width: 100%;
+}
+
 hr {
     border-color: #9B69D0;
 }
