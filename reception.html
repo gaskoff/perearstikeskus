@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Perearstikeskus X &#8211; Meist</title>
+    <title>Perearstikeskus X &#8211; Vastuvõtuajad</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- minu CSS -->
@@ -16,6 +16,7 @@
 </head>
 <body>
 <div class="container">
+
     <div class="container-fluid d-flex align-items-center justify-content-around">
         <header class="text-center">
             <a href="index.html"><img src="logo.png" width="150px"></a>
@@ -28,16 +29,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Avaleht</a></li>
-                    <li class="nav-item active dropdown">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meist
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item active" href="about.html">Ettevõttest</a>
+                            <a class="dropdown-item" href="about.html">Ettevõttest</a>
                             <a class="dropdown-item" href="employees.html">Meie töötajad</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="reception.html">Vastuvõtuajad</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="reception.html">Vastuvõtuajad</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Patsiendile</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Hinnakiri</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Covid-19</a></li>
@@ -47,40 +48,46 @@
         </nav>
     </div>
 
-    <main class="d-flex align-items-top justify-content-around flex-wrap">
-        <section class="section left-section">
-            <img src="images/interior_1.jpg" class="extra-rounding vertical-spacing" width="100%">
-            <img src="images/interior_2.jpg" class="extra-rounding vertical-spacing" width="100%">
-            <img src="images/interior_3.jpg" class="extra-rounding vertical-spacing" width="100%">
-        </section>
-        <section class="section right-section">
-            <div class="card text-white bg-purple extra-rounding text-center emphasize">
-                <div class="card-body"><span class="text-uppercase">Hoolivus</span></div>
-            </div>
-            <hr>
-            <div class="emphasize text-center">Meie perearstikeskuse missioon on olla kõikide inimeste suhtes hooliv. Juba väikegi hoolivus igas päevas aitab parandada tervist ja pikendada eluiga. Hoolivad inimesed on rõõmsamad ning õnnelikumad oma tegemistes.</div>
-            <hr>
-            <div class="spacer"></div>
-            <div class="card text-white bg-purple extra-rounding text-center emphasize">
-                <div class="card-body"><span class="text-uppercase">Sallivus</span></div>
-            </div>
-            <hr>
-            <div class="emphasize text-center">Paljude teiste perearstikeskuste põhieesmärk on ainult teenida raha ja mitte tegeleda vähem-jõukamate patsientidega. Meie sellega ei nõustu ning võtame teie muret kuulda olenemata rahakoti paksusest või automargist.</div>
-            <hr>
-            <div class="spacer"></div>
-            <div class="card text-white bg-purple extra-rounding text-center emphasize">
-                <div class="card-body"><span class="text-uppercase">Teadlikus</span></div>
-            </div>
-            <hr>
-            <div class="emphasize text-center">Kivimäe perearstikeskuses töötab statsionaarselt 20 eriala septsialisti ja oleme näinud igasuguseid tervisemuresi. Meie patsiendid on õnnelikud, sest me informeerime ka neid terviseprobleemide olemustest ja lahendustest. Tõstes patsiendi teadlikkust probleemist, on juba pool murest lahendatud.</div>
-            <hr>
-            <div class="spacer"></div>
-            <div class="card text-white bg-purple extra-rounding text-center emphasize">
-                <div class="card-body"><span class="text-uppercase">Headus</span></div>
-            </div>
-            <hr>
-            <div class="emphasize text-center">Head lapsed, need kasvavad vitsata. Sama põhimõte kehtib ka meditsiinis.</div>
-            <hr>
+
+    <main class="">
+        <h2>Vastuvõtuajad</h2>
+        <section>
+            <table class="table table-hover table-purple">
+                <thead>
+                <tr>
+                    <th scope="col">Arst</th>
+                    <th scope="col">Vastuvõtuajad</th>
+                    <th scope="col">Telefon</th>
+                    <th scope="col">Märkused</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">PhD N-Euro Loog</th>
+                    <td>E-R, kell 12:00 &#8211; 16:00</td>
+                    <td>+5555 5555</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">PhD S. Ilmaarst</th>
+                    <td>E-R kell 8:00 &#8211; 12:00 </td>
+                    <td>+5555 5556</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">M.D. Nahaa Rst</th>
+                    <td>L-P kell 22:00 &#8211; 01:00</td>
+                    <td>+5555 5557</td>
+                    <td>Helistada ette</td>
+                </tr>
+                <tr class="row-muted">
+                    <th scope="row">M.D. Medõ De</th>
+                    <td>L-P kell 22:00 &#8211; 01:00</td>
+                    <td>+5555 5558</td>
+                    <td class="text-uppercase">Puhkusel</td>
+                </tr>
+                </tbody>
+            </table>
         </section>
     </main>
 

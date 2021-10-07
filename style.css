@@ -83,3 +83,16 @@ nav{
 hr {
     border-color: #9B69D0;
 }
+
+
+.table-purple td, .table-purple th {
+    color: white;
+    background-color: #9B69D0;
+}
+.table-purple tbody tr:hover {
+    filter: brightness(110%)
+}
+.row-muted td, .row-muted th {
+    background-color: #a98cd0;
+    color: #d5badd;
+}
