@@ -70,12 +70,21 @@
       document.getElementById("chat-container").style.display = "none";
     }
 
-    var chatHistory = document.getElementById("chat-history-text");
-    var userInput = document.getElementById("user-input");
+    const chatHistory = document.getElementById("chat-history-text");
+    const userInput = document.getElementById("user-input");
+    const attrUser = document.createAttribute("class");
+    attrUser.value = "chat-user";
+
     userInput.addEventListener("keyup", function(e) {
       if (e.which === 13) {
-        var text = document.createTextNode(e.target.value.concat("<br>"));
-        chatHistory.appendChild(text);
+        const p = document.createElement("p");
+        p.innerText = e.target.value;
+        const attrUser = document.createAttribute("class");
+        attrUser.value = "chat-user";
+        p.setAttributeNode(attrUser);
+        chatHistory.appendChild(p);
+        userInput.
+
       }
     });
 
