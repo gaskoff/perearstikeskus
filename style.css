@@ -12,10 +12,11 @@ body {
 }
 main{
     flex: 1 0 auto;
-    margin-bottom: 10vh;
+    
 }
 footer{
     flex:0 0 auto;
+    margin-top: 10vh;
 }
 
 h1 {
@@ -139,6 +140,12 @@ hr {
 }
 
 /** Footer **/
-.footer{
+.footer hr{
     border-bottom: 1px solid #7E55F3;
+}
+@media only screen and (max-width:536px) {
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
 }
