@@ -15,10 +15,9 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
-<div class="container">
 
-    <div class="container-fluid d-flex align-items-center justify-content-around">
-        <header class="text-center">
+    <div class="d-flex mx-auto mb-3 align-items-center">
+        <header class="text-center mr-5">
             <a href="index.html"><img src="logo.png" width="150px"></a>
         </header>
         <nav class="navbar navbar-expand-xl navbar-light">
@@ -49,7 +48,7 @@
     </div>
 
 
-    <main class="">
+    <main class="container">
         <h2>Vastuvõtuajad</h2>
         <section>
             <table class="table table-hover table-purple">
@@ -91,9 +90,25 @@
         </section>
     </main>
 
-    <footer></footer>
-
-</div>
+    <footer>
+        <div class="container footer d-flex flex-wrap align-items-center justify-content-between">
+            <div id="k-andmed">
+                <p class="mb-1">Tel: +372 55 555 555 &nbsp;<a style="text-decoration: underline;" href="helistamine.html">Telli tagasihelistamine! </a></p>
+                <p class="mb-1">Narva mnt 18, 51009 Tartu, Eesti</p>
+            </div>
+            <div class="bot d-flex">
+                <span class="mr-1">Suhtle "perebotiga"</span>
+                <object id="bot-button"
+                    type="image/svg+xml"
+                    data="images\Vector 1.svg" width="50">
+                </object>
+            </div>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+            <a href="mailto:info@xperearstikeskus.ee">info@xperearstikeskus.ee</a>
+            <p>X perearstid OÜ</p>
+        </div>
+    </footer>
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- Popper.js -->
