@@ -2,7 +2,7 @@
 function toggleChat() {
     let display = document.getElementById("chat-container").style.display;
 
-    document.getElementById("chat-container").style.display = display === "none" ? "block" : "none"
+    document.getElementById("chat-container").style.display = display !== "block" ? "block" : "none"
 }
 
 function openChat(){
