@@ -144,10 +144,19 @@ hr {
     width: 20%;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .bot > button{
 
+}
+
+.bot-button {
+    cursor: pointer;
+}
+
+.bot-button object {
+    pointer-events: none;
 }
 
 #close-chat > img{
@@ -158,8 +167,8 @@ hr {
     border: 1px solid;
     display: none;
     position: absolute;
-    bottom: 200px;
-    right: 0px;
+    bottom: 40px;
+    right: 0;
 }
 
 .chat-user{

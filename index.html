@@ -74,22 +74,23 @@
                 </div>
                 <div class="bot d-flex">
                     <span class="mr-1">Suhtle "perebotiga"</span>
-                    <object id="bot-button"
-                        type="image/svg+xml"
-                        data="images\Vector 1.svg" width="50"
-                        onclick="openChat()">
-                    </object>
-                </div>
+                    <span class="bot-button" onclick="openChat()">
+                        <object
+                            type="image/svg+xml"
+                            data="images\Vector 1.svg" width="50">
+                        </object>
+                    </span>
 
-                <div id="chat-container">
-                    <button id="close-chat" type="button" onclick="closeChat()">
-                        <img src="arrow1.png" alt="">
-                    </button>
-                    <div class="chat-history">
-                        <p id="chat-history-text">Kas saan kuidagi abiks olla?</p>
-                    </div>
-                    <div class="chat-input">
-                        <input type="text" id="user-input">
+                    <div id="chat-container">
+                        <button id="close-chat" type="button" onclick="closeChat()">
+                            <img src="arrow1.png" alt="">
+                        </button>
+                        <div class="chat-history">
+                            <p id="chat-history-text">Kas saan kuidagi abiks olla?</p>
+                        </div>
+                        <div class="chat-input">
+                            <input type="text" id="user-input">
+                        </div>
                     </div>
                 </div>
             </div>
