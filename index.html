@@ -76,8 +76,21 @@
                     <span class="mr-1">Suhtle "perebotiga"</span>
                     <object id="bot-button"
                         type="image/svg+xml"
-                        data="images\Vector 1.svg" width="50">
+                        data="images\Vector 1.svg" width="50"
+                        onclick="openChat()">
                     </object>
+                </div>
+
+                <div id="chat-container">
+                    <button id="close-chat" type="button" onclick="closeChat()">
+                        <img src="arrow1.png" alt="">
+                    </button>
+                    <div class="chat-history">
+                        <p id="chat-history-text">Kas saan kuidagi abiks olla?</p>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="user-input">
+                    </div>
                 </div>
             </div>
             <hr>
@@ -94,5 +107,34 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <!-- ikoonid -->
         <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+
+        <!-- bot -->
+        <script>
+            function openChat(){
+                document.getElementById("chat-container").style.display = "block";
+            }
+
+            function closeChat(){
+                document.getElementById("chat-container").style.display = "none";
+            }
+
+            const chatHistory = document.getElementById("chat-history-text");
+            const userInput = document.getElementById("user-input");
+            const attrUser = document.createAttribute("class");
+            attrUser.value = "chat-user";
+
+            userInput.addEventListener("keyup", function(e) {
+                if (e.which === 13) {
+                    const p = document.createElement("p");
+                    p.innerText = e.target.value;
+                    const attrUser = document.createAttribute("class");
+                    attrUser.value = "chat-user";
+                    p.setAttributeNode(attrUser);
+                    chatHistory.appendChild(p);
+                    //userInput.
+
+                }
+            });
+        </script>
     </body>
 </html>
