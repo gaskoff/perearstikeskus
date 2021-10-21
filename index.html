@@ -74,10 +74,10 @@
                 </div>
                 <div class="bot d-flex">
                     <span class="mr-1">Suhtle "perebotiga"</span>
-                    <span class="bot-button" onclick="openChat()">
+                    <span class="bot-button" onclick="toggleChat()">
                         <object
                             type="image/svg+xml"
-                            data="images\Vector 1.svg" width="50">
+                            data="img\Vector 1.svg" width="50">
                         </object>
                     </span>
 
@@ -108,34 +108,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <!-- ikoonid -->
         <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
-
         <!-- bot -->
-        <script>
-            function openChat(){
-                document.getElementById("chat-container").style.display = "block";
-            }
-
-            function closeChat(){
-                document.getElementById("chat-container").style.display = "none";
-            }
-
-            const chatHistory = document.getElementById("chat-history-text");
-            const userInput = document.getElementById("user-input");
-            const attrUser = document.createAttribute("class");
-            attrUser.value = "chat-user";
-
-            userInput.addEventListener("keyup", function(e) {
-                if (e.which === 13) {
-                    const p = document.createElement("p");
-                    p.innerText = e.target.value;
-                    const attrUser = document.createAttribute("class");
-                    attrUser.value = "chat-user";
-                    p.setAttributeNode(attrUser);
-                    chatHistory.appendChild(p);
-                    //userInput.
-
-                }
-            });
-        </script>
+        <script src="bot.js"></script>
     </body>
 </html>
