@@ -159,10 +159,6 @@ hr {
     pointer-events: none;
 }
 
-#close-chat > img{
-    transform: rotate(180deg);
-}
-
 #chat-container{
     border: 1px solid;
     display: none;
