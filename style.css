@@ -140,12 +140,15 @@ hr {
 }
 
 /** Footer **/
-.footer hr{
-    border-bottom: 1px solid #7E55F3;
+footer hr{
+    width: 80vw;
 }
 @media only screen and (max-width:536px) {
     .footer{
         flex-direction: column;
         text-align: center;
+    }
+    footer hr{
+        width: 100%;
     }
 }
